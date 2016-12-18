@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <link href = "test.css" rel = "stylesheet" type = "text/css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="first">
+          <h2>Output</h2>
+          <div id = "output">
+              <pre id = "json"></pre>
+          </div>
+      </div>
+      <div id="second">
+          <h2>Query Builder</h2>
+          <div id = "output" style="text-align: center;padding-top:25px;">
+            <div>
+              http://127.0.0.1:8080/listhotels?city=
+              <input type = "text" value = "Bangkok"  id ="cityName"></input>
+              &key=
+              <select id = "key">
+                <option value=""></option>
+                <option value="abc123">abc123</option>
+                <option value = "abc124">abc124</option>
+                <option value = "abc125">abc125</option>
+                <option value = "abc126">abc126</option>
+                <option value="abc127">abc127(without rate limit)</option>
+              </select>
+              &order=
+              <select id = "order">
+                  <option value=""></option>
+                  <option value="asc">asc</option>
+                  <option value="desc">desc</option>
+              </select>
+            </br>
+          </div>
+          <div  style="padding-top:25px;">
+            Number of Request: <input type = "text" value = "1" id ="numberRequest"></input>
+            <button onclick="runQuery()"> Submit</button>
+          </div>
+          <div  style="padding-top:25px;" id = "query">
+          </div>
+          </div>
+      </div>
+      <div id="third">
+          <h2>Console Output</h2>
+          <div id = "output">
+              <div id = "container" style="overflow: auto; height:600px;">
+              </div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+<script src = "./main.js"></script>

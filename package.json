@@ -1,0 +1,15 @@
+{
+  "name": "hotelmanagment",
+  "version": "1.0.0",
+  "description": "A get api for Hotel managment System",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "csvjson":"^2.2.2"
+  },
+  "scripts": {
+    "start":"node index.js"
+  },
+  "author": "Piyush singh",
+  "license": "MIT"
+}

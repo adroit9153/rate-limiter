@@ -1,0 +1,31 @@
+{
+  "time":10,
+  "global_rate_limit":10,
+  "lock_time":300,
+  "api_key": {
+    "abc123":{
+      "rate_limit":20,
+      "allowance":20,
+      "lock":false
+    },
+    "abc124":{
+      "rate_limit":20,
+      "allowance":20,
+      "lock":false
+    },
+    "abc125":{
+      "rate_limit":30,
+      "allowance":30,
+      "lock":false
+    },
+    "abc126":{
+      "rate_limit":20,
+      "allowance":20,
+      "lock":false
+    },
+    "abc127":{
+      "allowance":10,
+      "lock":false
+    }
+  }
+}
