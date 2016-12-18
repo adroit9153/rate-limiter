@@ -18,12 +18,11 @@ The Api server will start running at http://127.0.0.1:8080
 I have created a webpage to create query and see the result and logs in the UI. To run this
 
 ```
-go to test folder
+go to Test folder
 open command prompt here
 run python -m SimpleHTTPServer 8000
 
 ```
 Now you can acces page at : http://127.0.0.1:8000
-
 
 
