@@ -23,6 +23,6 @@ open command prompt here
 run python -m SimpleHTTPServer 8000
 
 ```
-Now you can acces page at : http://127.0.0.1:8000
+Now you can access page at : http://127.0.0.1:8000  (Please enable cors to see the desired result)
 
 
